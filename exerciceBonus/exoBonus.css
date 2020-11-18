@@ -44,11 +44,23 @@
 
 
 @keyframes direction-voiture {
+    from {
+        transform: translateX(0);
+    }
 
+    to {
+        transform: translateX(1100px);
+    }
 }
 
 @keyframes rotation-roue {
+    from {
+        transform: rotate(0);
+    }
 
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -108,5 +120,11 @@
 
 
 @keyframes nuage {
+    from {
+        transform: translateX(0);
+    }
 
+    to {
+        transform: translateX(1200px);
+    }
 }
