@@ -42,5 +42,13 @@
 }
 
 @keyframes rotHelice {
+    from {
+        transform-origin: 50% 29%;
+        transform: rotate(0);
+    }
 
+    to {
+        transform-origin: 50% 29% ;
+        transform: rotate(360deg);
+    }
 }
